@@ -1,0 +1,19 @@
+---
+title: "Parallel install of R packages"
+author: "Murray Cadzow"
+date: "2017-11-20T12:10:31-07:00"
+categories: ["R"]
+tags: ["R", "parallel", "packages"]
+---
+
+
+
+<p>This came up in my twitter feed from Rbloggers and looks pretty useful as a set and forget type thing.</p>
+<p>See <a href="https://www.r-bloggers.com/speeding-up-package-installation-2/" class="uri">https://www.r-bloggers.com/speeding-up-package-installation-2/</a> for the actual post</p>
+<p>Basically, install.packages() uses the environment setting for Ncpus, which by default is set to 1.</p>
+<p>The current setting can be found with</p>
+<pre class="r"><code># the second argument returns 1 if Ncpus is not set, instead of NULL
+getOption(&quot;Ncpus&quot;, 1L)</code></pre>
+<p>Ncpus can be set with this command before running install.packages()</p>
+<pre class="r"><code>options(Ncpus = 4)</code></pre>
+<p>Or you can stick it ‘~/.Rprofile’ so that it is loaded each time you run R</p>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Hugo Bootstrap v4 Blog" />
+<meta property="og:description" content="A simple Hugo theme based on the Bootstrap v4 blog example." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" />
+
+
+
+<meta property="og:updated_time" content="2014-09-28T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hugo Bootstrap v4 Blog"/>
+<meta name="twitter:description" content="A simple Hugo theme based on the Bootstrap v4 blog example."/>
+<meta name="twitter:site" content="@username"/>
+<meta name="generator" content="Hugo 0.26" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Hugo Bootstrap v4 Blog",
+  "url" : "/",
+  "author": {
+    "@type": "Person",
+    "name": "Your Name"
+  },
+  "dateModified": "2014-09-28T00:00:00&#43;00:00",
+  "keywords": "development,golang,r,development,go,golang,hugo,plot,r-markdown,regression,templates,themes,",
+  "description": "A simple Hugo theme based on the Bootstrap v4 blog example."
+}
+</script>
+
+
+    <link rel="canonical" href="/">
+
+    <title>Hugo Bootstrap v4 Blog</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/css/style.css" rel="stylesheet" integrity="sha384-zYRhIy0/Yl1e5lW9cimY1AugfdkHChXyCbs2NKFaLTgeQjVfj/CMPIUdjXm/JPWV" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Hugo Bootstrap v4 Blog" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link active" href="/">Home</a>
+          
+          
+          <a class="nav-link" href="/about/">About</a>
+          
+          
+        </nav>
+      </div>
+    </div>
+
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/" rel="home">Hugo Bootstrap v4 Blog</a></h1>
+        <p class="lead blog-description">A simple Hugo theme based on the Bootstrap v4 blog example.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2014/09/creating-a-new-theme/">Creating a New Theme</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-09-28T00:00:00Z">Sun Sep 28, 2014</time> by Michael Henderson</p>
+  </header>
+  Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+  <a href='/2014/09/creating-a-new-theme/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-03-10T00:00:00Z">Mon Mar 10, 2014</time> by Your Name</p>
+  </header>
+  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
+  <a href='/2014/03/migrate-to-hugo-from-jekyll/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2016/12/a-plain-markdown-post/">A Plain Markdown Post</a></h2>
+    <p class="blog-post-meta"><time datetime="2016-12-30T21:49:57-07:00">Fri Dec 30, 2016</time> by Your Name</p>
+  </header>
+  This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown.
+  <a href='/2016/12/a-plain-markdown-post/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2015/07/hello-r-markdown/">Hello R Markdown</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-07-23T21:13:14-05:00">Thu Jul 23, 2015</time> by Frida Gomam in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/r" rel="category tag">R</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/r-markdown" rel="tag">R Markdown</a>, <a href="/tags/plot" rel="tag">plot</a>, <a href="/tags/regression" rel="tag">regression</a>
+
+</p>
+  </header>
+  R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+  <a href='/2015/07/hello-r-markdown/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/2015/01/lorem-ipsum/">Lorem Ipsum</a></h2>
+    <p class="blog-post-meta"><time datetime="2015-01-01T13:09:13-06:00">Thu Jan 01, 2015</time> by Your Name</p>
+  </header>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <a href='/2015/01/lorem-ipsum/'>Read more →</a>
+</article> 
+
+
+
+
+
+<nav class="blog-pagination">
+  
+  
+  
+  <a class="btn btn-outline-primary disabled" href="#" role="button" aria-disabled="true">Previous page</a>
+  <a class="btn btn-outline-primary" href="/page/2/" rel="next" role="button">Next page</a>
+  
+</nav>
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/2014/09/creating-a-new-theme/">Creating a New Theme</a></li>
+
+<li><a href="/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+
+<li><a href="/2016/12/a-plain-markdown-post/">A Plain Markdown Post</a></li>
+
+<li><a href="/2015/07/hello-r-markdown/">Hello R Markdown</a></li>
+
+<li><a href="/2015/01/lorem-ipsum/">Lorem Ipsum</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+  </body>
+
+</html>
