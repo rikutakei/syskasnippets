@@ -1,0 +1,30 @@
+---
+title: "usethis - project setup"
+author: "Murray Cadzow"
+date: "2018-02-08T12:10:31-07:00"
+categories: ["R"]
+tags: ["R", "packages"]
+---
+
+
+
+<p>One of the packages that was a highlight for me from rstudio::conf2018 was usethis.</p>
+<p>This package forms part of the package building workflow but also general project workflows.</p>
+<p>In a package development workflow some of the key functions are:</p>
+<pre class="r"><code># creates a new dir and populates with a skeleton containing examples
+usethis::create_package(&quot;/path/to/create/package&quot;)
+
+# creates an R script in the R/ dir (don&#39;t need to include the .R extension)
+usethis::use_r(&quot;filename&quot;)
+
+# series of license templates such as mit, gpl3, cc0 etc
+usethis::use_*_license_license(&quot;name&quot;)
+
+# initialises a testthat dir to put tests
+usethis::use_testthat()
+
+# creates a testfile
+usethis::use_test(&quot;filename&quot;)
+
+# creates a README file for you package
+usethis::use_readme_md()</code></pre>
