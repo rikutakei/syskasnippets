@@ -1,0 +1,17 @@
+---
+title: RMarkdown
+author: Murray
+date: '2018-04-13'
+slug: rmarkdown
+categories:
+  - R
+  - Markdown
+tags:
+  - R
+  - Markdown
+---
+
+
+This webpage gives some examples of a few of the cool additional things that can be done with relative ease when creating and Rmarkdown document.
+
+https://holtzy.github.io/Pimp-my-rmd/
