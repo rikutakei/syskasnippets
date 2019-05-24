@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "murraycadzow.github.io/syskasnippets/"
+baseurl = "https://murraycadzow.github.io/syskasnippets/"
 publishDir = "public"
 languageCode = "en-us"
 title = "Otago Study Group SYSKA"
