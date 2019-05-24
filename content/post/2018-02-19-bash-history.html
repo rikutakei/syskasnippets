@@ -1,0 +1,28 @@
+---
+title: Bash history
+author: Murray Cadzow
+date: '2018-02-19'
+slug: bash-history
+categories: [bash]
+tags: [bash,dotfile]
+---
+
+
+
+<p>One of the most useful additions to my .bashrc file that I have found is the addition of this command to save all the commands that I run into a log file.</p>
+<pre class="bash"><code>export PROMPT_COMMAND=&#39;if [ &quot;$(id -u)&quot; -ne 0  ]; then echo &quot;$(date &quot;+%Y-%m-%d.%H:%M:%S&quot;) $(pwd) $(history 1)&quot; &gt;&gt; ~/.logs/bash-history-$(date &quot;+%Y-%m-%d&quot;).log; fi&#39;</code></pre>
+<p>This is super useful because it saves a new file for each day of all of the timestamped commands that I have run and the directory I was in when I ran them.</p>
+<p>This when coupled with grep enables a powerful way to search back in time for previous commands</p>
+<p>i.e. if I want to find all the times I have run the ‘ls’ command</p>
+<pre class="bash"><code>grep &#39;ls&#39; ~/.logs/*</code></pre>
+<p>So if you want to have it for yourself:</p>
+<p>Create the .logs directory required</p>
+<pre class="bash"><code>mkdir ~/.logs</code></pre>
+<p>Open up your .bashrc file</p>
+<pre class="bash"><code>nano ~/.bashrc</code></pre>
+<p>then on a new line paste in: export PROMPT_COMMAND=‘if [ “$(id -u)” -ne 0 ]; then echo “$(date”+%Y-%m-%d.%H:%M:%S“) $(pwd) <span class="math inline">\((history 1)&quot; &gt;&gt; ~/.logs/bash-history-\)</span>(date”+%Y-%m-%d&quot;).log; fi’</p>
+<p>and save with ctrl + o and exit with ctrl + x</p>
+<p>Then to get it working you either need to quit and reopen you shell or</p>
+<pre class="bash"><code>source ~/.bashrc</code></pre>
+<p>and your commands will then start being logged into files in the ~/.logs directory</p>
+<p>Here is the original post that I found this useful information in <a href="https://spin.atomicobject.com/2016/05/28/log-bash-history/" class="uri">https://spin.atomicobject.com/2016/05/28/log-bash-history/</a></p>

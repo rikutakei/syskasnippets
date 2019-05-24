@@ -1,0 +1,44 @@
+---
+title: Making it go faster
+author: Murray
+date: '2019-05-24'
+slug: furrr
+categories:
+  - R
+tags:
+  - R
+  - parallel
+  - purrr
+  - furrr
+---
+
+
+Recently I have been going through some old code that I needed to rerun. As part of doing so I was taking the opportunity to reimplement it with some new tricks that I have discovered since I wrote it ~2 years ago.
+
+This particular script has many, many `for` loops which I now wanted to replace with `purrr::map` to make the code cleaner and easier to maintain.
+
+As part of using `purrr::map` I wondered if I could also make the code go faster by parallelising the loop. The short answer is yes, with the `furrr` package, using `furrr::future_map`.
+
+The long answer comes from https://byuistats.github.io/M335/parallel_furrr.html
+
+but in simplicity
+
+```{r, eval = FALSE}
+library(purrr)
+
+purrr::map(list_object, function)
+
+```
+
+becomes:
+
+
+```{r, eval = FALSE}
+library(furrr)
+no_cores <- availableCores() - 1
+plan(multicore, workers = no_cores)
+
+furrr::future_map(list_object, function)
+```
+
+where each item of the list if processed in parallel
