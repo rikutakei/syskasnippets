@@ -1,5 +1,9 @@
 # syskasnippets_source
 
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/murraycadzow/syskasnippets.svg?branch=master)](https://travis-ci.org/murraycadzow/syskasnippets)
+<!-- badges: end -->
+
 The source files that are used with the blogdown R package to create the blog site https://otagostudygroup.github.io/syskasnippets/
 
 
