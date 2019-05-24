@@ -1,9 +1,16 @@
 language: r
 dist: xenial
-cache: packages
+latex: false
+
 branches:
-    only:
-        - master
+  only:
+    - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+    
 r_github_packages:
     - rstudio/blogdown
 
