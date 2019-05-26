@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/tags/markdown/</link>
+    <description>Recent content in Markdown on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RMarkdown</title>
+      <link>/syskasnippets/2018/04/rmarkdown/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/2018/04/rmarkdown/</guid>
+      <description>This webpage gives some examples of a few of the cool additional things that can be done with relative ease when creating and Rmarkdown document.
+https://holtzy.github.io/Pimp-my-rmd/</description>
+    </item>
+    
+  </channel>
+</rss>

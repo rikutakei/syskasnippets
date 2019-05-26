@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="furrr" />
+<meta property="og:description" content="The OtagoStudyGroup Stuff You Should Know About blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/syskasnippets/tags/furrr/" />
+
+<meta property="og:updated_time" content="2019-05-24T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="furrr"/>
+<meta name="twitter:description" content="The OtagoStudyGroup Stuff You Should Know About blog"/>
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "headline": "Otago Study Group SYSKA",
+  "url" : "\/syskasnippets\/tags\/furrr\/",
+  "author": {
+    "@type": "Person",
+    "name": "Murray Cadzow"
+  },
+  "dateModified": "2019-05-24T00:00:00\x2b00:00",
+  "keywords": "bash,best-practices,git,github,markdown,r,bash,dotfile,free,furrr,git,github,jenny-bryan,markdown,packages,parallel,purrr,r,",
+  "description": "The OtagoStudyGroup Stuff You Should Know About blog"
+}
+</script>
+
+
+    <link rel="canonical" href="/syskasnippets/tags/furrr/">
+
+    <title>Otago Study Group SYSKA</title>
+
+    <!-- combined, minified CSS -->
+    <link href="/syskasnippets/css/style.css" rel="stylesheet" integrity="sha384-zYRhIy0/Yl1e5lW9cimY1AugfdkHChXyCbs2NKFaLTgeQjVfj/CMPIUdjXm/JPWV" crossorigin="anonymous">
+
+    
+    <!-- RSS 2.0 feed -->
+    <link href="/syskasnippets/tags/furrr/index.xml" rel="alternate" type="application/rss+xml" title="Otago Study Group SYSKA" />
+    
+
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="/syskasnippets/">Home</a>
+          
+          
+          <a class="nav-link" href="/syskasnippets/about/">About</a>
+          
+          
+        </nav>
+      </div>
+    </div>
+
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title"><a href="/syskasnippets/" rel="home">Otago Study Group SYSKA</a></h1>
+        <p class="lead blog-description">The OtagoStudyGroup Stuff You Should Know About blog</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="/syskasnippets/2019/05/making-it-go-faster/">Making it go faster</a></h2>
+    <p class="blog-post-meta"><time datetime="2019-05-24T00:00:00Z">Fri May 24, 2019</time> by Murray in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/syskasnippets/categories/r" rel="category tag">R</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/syskasnippets/tags/r" rel="tag">R</a>, <a href="/syskasnippets/tags/parallel" rel="tag">parallel</a>, <a href="/syskasnippets/tags/purrr" rel="tag">purrr</a>, <a href="/syskasnippets/tags/furrr" rel="tag">furrr</a>
+
+</p>
+  </header>
+  Recently I have been going through some old code that I needed to rerun. As part of doing so I was taking the opportunity to reimplement it with some new tricks that I have discovered since I wrote it ~2 years ago.
+This particular script has many, many for loops which I now wanted to replace with purrr::map to make the code cleaner and easier to maintain.
+As part of using purrr::map I wondered if I could also make the code go faster by parallelising the loop.
+  <a href='/syskasnippets/2019/05/making-it-go-faster/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>The offical SYSKA blog for OtagoStudyGroup</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/syskasnippets/2019/05/making-it-go-faster/">Making it go faster</a></li>
+
+<li><a href="/syskasnippets/2018/04/rmarkdown/">RMarkdown</a></li>
+
+<li><a href="/syskasnippets/2018/02/bash-history/">Bash history</a></li>
+
+<li><a href="/syskasnippets/2018/02/usethis-project-setup/">usethis - project setup</a></li>
+
+<li><a href="/syskasnippets/2017/12/arson-threats-and-some-best-practices/">aRson threats and some best practices</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://goo.gl/forms/Oxo1f1ajwNPEPuPP2">Email list signup</a></li>
+      
+      <li><a href="http://otagostudygroup.github.io/studyGroup/">Otago Sudy Group</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+  </body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/categories/github/</link>
+    <description>Recent content in github on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github Education Account</title>
+      <link>/syskasnippets/2017/11/github-education-account/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/2017/11/github-education-account/</guid>
+      <description>For people that aren&amp;rsquo;t aware, students are able to get private repos on github for free! On top of this there is also a bunch of other free tools that come along with this pack
+To sign up for the pack head to https://education.github.com and follow the links. It is also possible to get academic discount for academic accounts so it&amp;rsquo;s also worth checking it out.</description>
+    </item>
+    
+  </channel>
+</rss>

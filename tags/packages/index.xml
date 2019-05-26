@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packages on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/tags/packages/</link>
+    <description>Recent content in packages on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 12:10:31 -0700</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>usethis - project setup</title>
+      <link>/syskasnippets/2018/02/usethis-project-setup/</link>
+      <pubDate>Thu, 08 Feb 2018 12:10:31 -0700</pubDate>
+      
+      <guid>/syskasnippets/2018/02/usethis-project-setup/</guid>
+      <description> One of the packages that was a highlight for me from rstudio::conf2018 was usethis.
+This package forms part of the package building workflow but also general project workflows.
+In a package development workflow some of the key functions are:
+# creates a new dir and populates with a skeleton containing examples usethis::create_package(&amp;quot;/path/to/create/package&amp;quot;) # creates an R script in the R/ dir (don&amp;#39;t need to include the .R extension) usethis::use_r(&amp;quot;filename&amp;quot;) # series of license templates such as mit, gpl3, cc0 etc usethis::use_*_license_license(&amp;quot;name&amp;quot;) # initialises a testthat dir to put tests usethis::use_testthat() # creates a testfile usethis::use_test(&amp;quot;filename&amp;quot;) # creates a README file for your package usethis::use_readme_md() </description>
+    </item>
+    
+    <item>
+      <title>Parallel install of R packages</title>
+      <link>/syskasnippets/2017/11/parallel-install-of-r-packages/</link>
+      <pubDate>Mon, 20 Nov 2017 12:10:31 -0700</pubDate>
+      
+      <guid>/syskasnippets/2017/11/parallel-install-of-r-packages/</guid>
+      <description>This came up in my twitter feed from Rbloggers and looks pretty useful as a set and forget type thing.
+See https://www.r-bloggers.com/speeding-up-package-installation-2/ for the actual post
+Basically, install.packages() uses the environment setting for Ncpus, which by default is set to 1.
+The current setting can be found with
+# the second argument returns 1 if Ncpus is not set, instead of NULL getOption(&amp;quot;Ncpus&amp;quot;, 1L) Ncpus can be set with this command before running install.</description>
+    </item>
+    
+  </channel>
+</rss>

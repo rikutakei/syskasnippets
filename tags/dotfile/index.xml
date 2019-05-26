@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dotfile on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/tags/dotfile/</link>
+    <description>Recent content in dotfile on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/tags/dotfile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash history</title>
+      <link>/syskasnippets/2018/02/bash-history/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/2018/02/bash-history/</guid>
+      <description>One of the most useful additions to my .bashrc file that I have found is the addition of this command to save all the commands that I run into a log file.
+export PROMPT_COMMAND=&amp;#39;if [ &amp;quot;$(id -u)&amp;quot; -ne 0 ]; then echo &amp;quot;$(date &amp;quot;+%Y-%m-%d.%H:%M:%S&amp;quot;) $(pwd) $(history 1)&amp;quot; &amp;gt;&amp;gt; ~/.logs/bash-history-$(date &amp;quot;+%Y-%m-%d&amp;quot;).log; fi&amp;#39; This is super useful because it saves a new file for each day of all of the timestamped commands that I have run and the directory I was in when I ran them.</description>
+    </item>
+    
+  </channel>
+</rss>

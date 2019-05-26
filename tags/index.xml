@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/tags/</link>
+    <description>Recent content in Tags on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R</title>
+      <link>/syskasnippets/tags/r/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>furrr</title>
+      <link>/syskasnippets/tags/furrr/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/furrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parallel</title>
+      <link>/syskasnippets/tags/parallel/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/parallel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>purrr</title>
+      <link>/syskasnippets/tags/purrr/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/purrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/syskasnippets/tags/markdown/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>/syskasnippets/tags/bash/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotfile</title>
+      <link>/syskasnippets/tags/dotfile/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/dotfile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packages</title>
+      <link>/syskasnippets/tags/packages/</link>
+      <pubDate>Thu, 08 Feb 2018 12:10:31 -0700</pubDate>
+      
+      <guid>/syskasnippets/tags/packages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenny Bryan</title>
+      <link>/syskasnippets/tags/jenny-bryan/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/jenny-bryan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free</title>
+      <link>/syskasnippets/tags/free/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/syskasnippets/tags/git/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github&#34;</title>
+      <link>/syskasnippets/tags/github/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/tags/github/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

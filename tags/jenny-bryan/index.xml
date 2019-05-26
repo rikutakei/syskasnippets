@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenny Bryan on Otago Study Group SYSKA</title>
+    <link>/syskasnippets/tags/jenny-bryan/</link>
+    <description>Recent content in Jenny Bryan on Otago Study Group SYSKA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/syskasnippets/tags/jenny-bryan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aRson threats and some best practices</title>
+      <link>/syskasnippets/2017/12/arson-threats-and-some-best-practices/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/syskasnippets/2017/12/arson-threats-and-some-best-practices/</guid>
+      <description>Recently on twitter - the source of most of these posts - Jenny Bryan (@JennyBryan) posted a link to her slides from her talk she gave in Auckland (http://bit.ly/jenny-nz). It inpsired threats of arson for people that use
+setwd(&amp;quot;/absolute/path/to/file&amp;quot;)  (this was because it reduces portability and outside of you using it the chances of someone having the exact directory setup is basically 0%)
+and
+rm(list = ls())  (because it interferes with peoples sessions and doesn&amp;rsquo;t sort out other session issues such as packages already loaded)</description>
+    </item>
+    
+  </channel>
+</rss>
